@@ -1,0 +1,14 @@
+/* �e�[�u���\�[�g�pCSS */
+table.sortable thead tr  .order-asc {
+    background-image: url('../images/asc.png');
+}
+table.sortable thead tr .order-desc {
+    background-image: url('../images/desc.png');
+}
+
+table.sortable thead tr th {
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    background-image: url('../images/bg.png');
+}

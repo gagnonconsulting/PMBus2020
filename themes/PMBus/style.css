@@ -1,0 +1,428 @@
+/*
+Theme Name: PMBus
+Version: 0.1.0
+Description: Created by <a href="http://www.themify.me">Themify </a> Customized by <a href="http://www.gagnonconsulting.com">Gagnon Consulting, Inc. </a>.
+Template: Divi
+Author: Gagnon Consulting, Inc.
+Author URI: http://www.gagnonconsulting.com
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Copyright: (c) 2017 GCI.
+Tags: featured-images, translation-ready, custom-menu
+Text Domain: pmbus
+
+---------
+
+
+*/
+
+/* @media (min-width: 768px) {
+
+.site-main ul.products li.product {
+  width: 100%;
+  float: none;
+  margin: 0;
+}
+
+.site-main ul.products {
+border-right: 1px solid;
+border-bottom: 1px solid;
+margin: 1em 0;
+}
+
+.site-main ul.products li.product .product_table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-main ul.products li.product div.one_third {
+  width: 100%;
+  float: left;
+  margin: 0;
+  text-align: left;
+  background-color: #eee;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  padding: 1em 2em;
+  box-sizing: border-box;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+*/
+
+/* recommended by Theme Check plugin */
+.sticky {}
+
+.bypostauthor {}
+
+/* bring the content of the left content area back up */
+#main-content .container {
+}
+
+#left-area {
+}
+element.style {
+    padding-top: 1px;
+}
+
+#gci-product-table {
+    width: 100%;
+    border: 1px solid lightgray;
+    line-height:0;
+}
+
+
+tr:nth-child(even) {
+
+}
+
+.gci-product-table {
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.gci-product-table-td {
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 2px;
+    padding-top: 5px;
+}
+
+.gci-product-table-td tr:nth-child(even) {
+
+}
+
+@media only screen and (max-width: 900px) {
+  .gci_hide {
+    display:none;
+  }
+}
+
+.product-category.grid_item.product img {
+    display: none;
+}
+
+.inline_list ul {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 0;
+}
+
+
+.inline_list li {
+  list-style: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .rwd-break {
+    display:none;
+  }
+}
+.et_pb_row {
+    position: relative;
+    width: 98%;
+    max-width: 1080px;
+    margin: auto;
+}
+.et-cart-info {
+  display:none;
+}
+
+.gci_product_table th {
+  border: 1px solid lightgray;
+  color: white !important;
+  line-height: 110%;
+}
+
+.gci_product_table td {
+  border: 1px solid lightgray;
+  line-height: 110%;
+}
+
+.gci_product_table_sortable {
+  cursor: pointer;
+}
+
+.gci_product_table thead {
+  background-color: #612166;
+}
+
+#top-menu li {
+    padding: 0 !important;
+}
+
+#et-secondary-menu .avatar {
+	display: none !important;
+}
+
+#et-secondary-menu .lwa-info a:nth-child(3) {
+  display: none !important;
+}
+#et-secondary-menu .lwa-info br:nth-child(2) {
+  display: none !important;
+}
+
+.lwa-title {
+  display: none;
+}
+.lwa-info {
+  display: none;
+}
+.lwa-logout {
+  display: inline;
+}
+
+.gci_form {
+  background-color:  #E8EBED !important;
+  border: 1px solid black !important;
+  border-radius: 4px !important;
+}
+.pmbus-form-lightgray {
+  background-color: lightgray;
+  border: 1px solid black !important;
+  border-radius: 4px !important;
+}
+a {
+  text-decoration: underline;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.menu-item a {
+	font-style: normal;
+	text-decoration: none;
+}
+
+.table_ref {
+	text-decoration: none;
+}
+
+.table_item {
+	text-decoration: none;
+	color:#5E2663;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.entry-meta .byline, .entry-meta .cat-links { display: none; }
+.entry-meta .posted-on { display: none; }
+
+.widget-content #widget_wcc_widget {
+}
+.widget-content h3 {
+	font-weight:bold;
+		line-height: 1.3em;
+}
+.widget_wcc_widget h4 {
+	font-size:1.2em;
+	font-weight:bold;
+	line-height:1.3em;
+}
+.widget-content a {
+	color: #5e2663;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.menu-item li {
+	line-height:1.3em !important;
+}
+#et-secondary-nav .menu-item-has-children>a:first-child:after, #top-menu .menu-item-has-children>a:first-child:after {
+	right:2px;
+	content:"7";
+}
+#top-menu li {
+  padding: 0 !important;
+	padding-right:16px !important;
+}
+.et_pb_section {
+  padding:0 !important;
+}
+@media only screen and (max-width: 1200px) {
+  .rc-anchor-logo-portrait {
+    display:none;
+  }
+}
+
+
+/* from my Adoptors */
+#myInput {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 3px 20px 3px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#membersTable {
+  border-collapse: collapse;
+  width: 100%;
+ border: 1px solid #ddd;
+}
+#membersTable a {
+  text-decoration: none;
+}
+#membersTable th {
+  font-size: 0.9em;
+  background-color: #6b3064;
+  color: white;
+  text-align: center;
+}
+#membersTable tr {
+  padding:0;
+  border: 1px solid #ddd;
+}
+#membersTable tr.header, #membersTable tr:hover {
+  background-color: #f1f1f1;
+}
+#membersTable td img {
+    display: block;
+    padding:0;
+}
+#membersTable td {
+  text-align: center;
+  padding:2px;
+border-left: none;
+	border-right: none;
+}
+
+#productTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+#productTable td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#productTable td {
+  text-align: left;
+}
+#productTable th {
+  background-color: #6b3064;
+  color: white;
+  text-align: left;
+}
+#productTable tr {
+  padding:0;
+  border-bottom: 1px solid #ddd;
+}
+#productTable tr.header, #productTable tr:hover {
+  background-color: #f1f1f1;
+}
+#productTable a {
+  text-decoration: none;
+}
+#productTable ul {
+  padding:0;
+  list-style-position: inside;
+}
+.entry-content tr td {
+  width: 80%;
+  padding:0;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  padding: 0;
+}
+tr:nth-child(even) {
+}
+.btn_members {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  background: #692f68;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-size: .7em;
+}
+.btn_members:hover {
+  background: #F18631;
+  text-decoration: none;
+}
+@media only screen and (max-width: 900px) {
+  .one{
+    display: none;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .two{
+    display: none;
+  }
+}
+/* remove the link in the breadcrumb */
+.woocommerce .woocommerce-breadcrumb a {
+color: #777;
+pointer-events: none;
+text-decoration: none;
+font-weight: normal;
+}
+
+.gci-product-table-td {
+}
+/*------------------------------------------------*/
+/*-----------[GQ - COMPACT SUB-MENU]--------------*/
+/*------------------------------------------------*/
+
+/* drop down menu - level 1 */
+    .nav li ul {
+        width: 180px;
+        padding: 0px;}
+    .nav li li {
+        line-height: 14px;}
+    #top-menu li li {
+        padding: 0 0px;}
+    #top-menu li li a {
+        font-size: 13px;
+        width: 180px;
+        padding: 5px 10px;
+        font-weight: bold;}
+
+/* drop down menu - level 2 */
+    .nav li li ul {
+        top: -3px;
+        left: 180px;}
+
+/* change drop down icon in submenus only */
+    #top-menu li .menu-item-has-children > a:first-child:after {
+        top: 6px;
+        right: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        content: "5";}
+
+/* always show scroll bars in overflow:scroll */
+@media(device-width: 768px) and (device-height: 1024px){
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0,0,0,.5);
+        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    }
+}
+
+h2#tools ::before {
+  display: block;
+  content: " ";
+  margin-top: -285px;
+  height: 285px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.pmbus-form-lightgray {
+  padding: 20px;
+}
